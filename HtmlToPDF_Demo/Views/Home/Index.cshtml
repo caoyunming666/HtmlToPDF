@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<style>
+    .redMarke{
+        display:inline-block;
+        width:20px;
+        height:20px;
+        border-radius:25px;
+        background-color:#69f;
+    }
+</style>
+
+<h2>Index</h2>
+<div class="row">
+    <div class="col-xs-6">
+        <img class="img-responsive center-block" style="width:200px;height:auto;" src="~/images/changweimao.jpg" />
+    </div>
+    <div class="col-xs-3">
+        <span>你现在有男朋友了吗？</span>
+    </div>
+    <div class="col-xs-3">
+        <span class="redMarke"></span>
+    </div>
+</div>
+
+<div class="row" style="margin-top:10px;">
+    <div class="col-xs-12">
+        <a href="/Home/DownloadPdf" class="btn btn-primary">DownloadPdf</a>
+    </div>
+</div>
