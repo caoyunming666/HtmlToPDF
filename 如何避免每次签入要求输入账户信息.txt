@@ -1,0 +1,20 @@
+正常安装TortoiseGit，安装完成过后在目录：  C盘/用户/lidebing(自己的用户名) 找到.gitconfig的文件
+
+在其中加上 ：
+
+[user]
+
+name = lidebing
+
+email = lidebing@qq.com
+
+[credential]
+
+helper = wincred
+
+完了第一次提交也需要输入密码，后面就可以记住密码不用输入了
+
+作者：她下巴留着胡子
+链接：https://www.jianshu.com/p/1507066740a1
+來源：简书
+简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
